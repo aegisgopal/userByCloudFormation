@@ -34,3 +34,20 @@ Resources2:
       # Tags: 
       #   - Tag
       UserName: cloudUser2
+Resources3:
+  IAmUser:
+    Type: AWS::IAM::User
+    Properties:
+      # Groups: 
+      #   - String
+      # LoginProfile: 
+      #   LoginProfile
+      # ManagedPolicyArns: 
+      #   - String
+      # Path: String
+      # PermissionsBoundary: String
+      # Policies: 
+      #   - Policy
+      # Tags: 
+      #   - Tag
+      UserName: cloudUser3
