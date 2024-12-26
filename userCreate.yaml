@@ -1,53 +1,15 @@
 Resources:
-  IAmUser:
+  CloudUser1:
     Type: AWS::IAM::User
     Properties:
-      # Groups: 
-      #   - String
-      # LoginProfile: 
-      #   LoginProfile
-      # ManagedPolicyArns: 
-      #   - String
-      # Path: String
-      # PermissionsBoundary: String
-      # Policies: 
-      #   - Policy
-      # Tags: 
-      #   - Tag
       UserName: cloudUser1
 
-
-Resources2:
-  IAmUser:
+  CloudUser2:
     Type: AWS::IAM::User
     Properties:
-      # Groups: 
-      #   - String
-      # LoginProfile: 
-      #   LoginProfile
-      # ManagedPolicyArns: 
-      #   - String
-      # Path: String
-      # PermissionsBoundary: String
-      # Policies: 
-      #   - Policy
-      # Tags: 
-      #   - Tag
       UserName: cloudUser2
-Resources3:
-  IAmUser:
+
+  CloudUser3:
     Type: AWS::IAM::User
     Properties:
-      # Groups: 
-      #   - String
-      # LoginProfile: 
-      #   LoginProfile
-      # ManagedPolicyArns: 
-      #   - String
-      # Path: String
-      # PermissionsBoundary: String
-      # Policies: 
-      #   - Policy
-      # Tags: 
-      #   - Tag
       UserName: cloudUser3
